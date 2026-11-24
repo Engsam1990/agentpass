@@ -3,6 +3,7 @@
 **On-chain Agent ID passport & access registry for the Binance Wallet × BNB Chain Agent ID Hackathon.**
 
 **Live app:** https://agentpass-9t35.zai-ai.site
+**Source:** https://github.com/Engsam1990/agentpass
 
 AgentPass turns the Binance **Agent ID** (the on-chain `name.ai` identity of an Agentic Wallet,
 ERC-721 `SPACE ID Agent ID`, symbol `AI`, at

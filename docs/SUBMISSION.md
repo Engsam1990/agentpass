@@ -71,7 +71,7 @@ contract addresses, Agent ID usage description and repository link.
 | Project name | `AgentPass` |
 | Category | *Pioneer Award* and/or *Innovation Award* (see the note below) |
 | Live product URL | *(the published dApp URL)* |
-| GitHub repository | *(the public repo URL)* |
+| GitHub repository | https://github.com/Engsam1990/agentpass |
 | Agent ID collection used | `0x60b9262456de011f7d15a54cdd8c48baaa8b022f` (SPACE ID Agent ID, symbol `AI`) |
 | AgentIdRegistry (verified) | `<REGISTRY>` — BscScan link `<https://bscscan.com/address/...>` |
 | AgentPassToken (PASS, verified) | `<PASS_TOKEN>` — BscScan link |

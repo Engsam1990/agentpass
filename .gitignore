@@ -12,4 +12,5 @@ web/node_modules/
 dev-pids.json
 .zcode/
 .zcode-site/
+.zcode-site.json
 .DS_Store

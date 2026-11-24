@@ -15,6 +15,12 @@ is exported from that same build (`npm run export-abi` equivalent via `scripts/e
 
 ## Prerequisites
 
+> **Agent ID availability:** the Binance Agent ID collection
+> `0x60b9262456de011f7d15a54cdd8c48baaa8b022f` has bytecode on BNB Chain mainnet
+> (chain 56) but not on BSC testnet (chain 97). Use the local mock deployment for
+> end-to-end testing. A testnet registry deployment is only a deployment smoke test;
+> real Agent ID registration and check-ins must run on mainnet.
+
 - Node.js 20+ and npm 10+
 - A wallet on **BNB Smart Chain Testnet** (chainId 97) for the testnet deploy
 - A wallet on **BNB Smart Chain** (chainId 56) for the mainnet deploy

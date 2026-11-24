@@ -34,7 +34,7 @@ One design choice worth calling out: the leaderboard shows Agent ID handles and 
 
 Source verified on BscScan. Repo is open. Try it:
 https://agentpass-9t35.zai-ai.site
-<REPO_URL>
+https://github.com/Engsam1990/agentpass
 
 #BinanceWalletHackathon #AgenticWallet
 ```

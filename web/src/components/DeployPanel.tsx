@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { REGISTRY_ABI, REGISTRY_BYTECODE } from "../abis";
 import { agentIdAddress, chainConfig, saveRegistryAddress } from "../config";
-import { walletClientFor } from "../lib/wallet";
+import { walletClientFor, waitForTx } from "../lib/wallet";
 
 /**
  * Deploys the audited registry bytecode straight from the connected wallet.
@@ -39,8 +39,17 @@ export function DeployPanel({
       });
       setMessage({
         kind: "ok",
-        text: `Deployment submitted: ${hash.slice(0, 14)}… — confirm in your wallet.`,
+        text: `Deployment submitted: ${hash.slice(0, 14)}… — waiting for confirmation.`,
       });
+      const receipt = await waitForTx(chainId, hash);
+      const contractAddress = receipt.contractAddress;
+      if (!contractAddress) {
+        throw new Error("Deployment confirmed but no contract address was returned");
+      }
+      setDeployed(contractAddress);
+      saveRegistryAddress(chainId, contractAddress);
+      setMessage({ kind: "ok", text: `AgentPass deployed at ${contractAddress}` });
+      onDeployed();
     } catch (err) {
       setMessage({
         kind: "error",

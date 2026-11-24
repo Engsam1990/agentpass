@@ -23,6 +23,18 @@ produces a bytecode mismatch even when the source is identical.
 
 ---
 
+## Flattened sources (ready to paste)
+
+The repository includes pre-flattened sources for the BscScan UI:
+
+- `verification/AgentIdRegistry.flattened.sol`
+- `verification/AgentPassToken.flattened.sol`
+- `verification/AgentReceipt.flattened.sol`
+
+They were generated with Hardhat 2 from the exact sources used for deployment.
+
+---
+
 ## Addresses to verify
 
 The registry deploys two helper contracts in its constructor. Each one must be verified
