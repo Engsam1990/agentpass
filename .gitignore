@@ -11,4 +11,5 @@ web/node_modules/
 *.tsbuildinfo
 dev-pids.json
 .zcode/
+.zcode-site/
 .DS_Store

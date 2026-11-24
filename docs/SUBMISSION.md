@@ -162,7 +162,7 @@ verifiable by anyone on BscScan without trusting our UI or our backend — there
 ### "Is the product live and usable?"
 
 ```
-Yes. The dApp is deployed at <LIVE_URL> and reads live data from BNB Chain (chain 56) over public
+Yes. The dApp is deployed at https://agentpass-9t35.zai-ai.site and reads live data from BNB Chain (chain 56) over public
 RPC endpoints. Read-only mode works with no wallet connected. Connected mode supports any EIP-1193
 wallet including Binance Wallet Web and MetaMask. All write actions (register, check in, buy
 premium slot, redeem gated content) are real on-chain transactions on BNB Chain mainnet.

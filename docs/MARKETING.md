@@ -33,7 +33,7 @@ What you can do:
 One design choice worth calling out: the leaderboard shows Agent ID handles and points only. We never publish wallet addresses, so AgentPass can't be used as a name → wallet lookup.
 
 Source verified on BscScan. Repo is open. Try it:
-<LIVE_URL>
+https://agentpass-9t35.zai-ai.site
 <REPO_URL>
 
 #BinanceWalletHackathon #AgenticWallet
@@ -94,7 +94,7 @@ Same reasoning drove the rest of the design:
 • Owner powers disclosed and narrow: fees, content hashes, slot price, ownership transfer
 
 Everything else about AgentPass:
-<LIVE_URL>
+https://agentpass-9t35.zai-ai.site
 
 #BinanceWalletHackathon #AgenticWallet
 ```
@@ -118,7 +118,7 @@ On-chain it records:
 And the minting path is narrow on purpose: only the registry can mint, and the registry only mints on a genuine Agent ID check-in.
 
 Try it yourself — connect a wallet that holds an Agent ID:
-<LIVE_URL>
+https://agentpass-9t35.zai-ai.site
 
 #BinanceWalletHackathon #AgenticWallet
 ```
@@ -144,7 +144,7 @@ And the fees just sit in the contract until the owner withdraws them. No auto-wi
 
 Agent ID holders can register and check in for gas only. No BNB required to join.
 
-<LIVE_URL>
+https://agentpass-9t35.zai-ai.site
 
 #BinanceWalletHackathon #AgenticWallet
 ```
@@ -159,7 +159,7 @@ We need 30 Agent ID holders to actually use AgentPass before the deadline ⏳
 The Innovation Award needs ≥30 interacting Agent ID addresses — real on-chain activity, not signups.
 
 If you hold an Agent ID, this takes about a minute and costs gas only:
-1. Open <LIVE_URL>
+1. Open https://agentpass-9t35.zai-ai.site
 2. Connect a wallet that holds an Agent ID
 3. Register your passport
 4. Check in once
