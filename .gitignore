@@ -1,0 +1,14 @@
+node_modules/
+artifacts/
+cache/
+typechain-types/
+dist/
+web/dist/
+web/node_modules/
+.env
+.env.local
+*.log
+*.tsbuildinfo
+dev-pids.json
+.zcode/
+.DS_Store
